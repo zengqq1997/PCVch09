@@ -261,23 +261,25 @@ saver.save(sess,"save/model")
 
 当代码运行起来以后，我们发现，准确率大概在96%左右浮动。
 
+![img](https://github.com/zengqq1997/PCVch09/blob/master/result.jpg)
+
 接下来看看哪些容易出现错误的数字
 
-![]()
+![img](https://github.com/zengqq1997/PCVch09/blob/master/4.jpg)
 
-![]()
+![img](https://github.com/zengqq1997/PCVch09/blob/master/4error.jpg)
 
 如图明明一眼能看出是4，结果根据预测值来看被识别成了6
 
-![]()
+![img](https://github.com/zengqq1997/PCVch09/blob/master/7.jpg)
 
-![]()
+![img](https://github.com/zengqq1997/PCVch09/blob/master/7error.jpg)
 
 这个图人眼能看出是7，结果根据预测值被认为是4
 
-![]()
+![img](https://github.com/zengqq1997/PCVch09/blob/master/9.jpg)
 
-![]()
+![img](https://github.com/zengqq1997/PCVch09/blob/master/9error.jpg)
 
 上图可能有点模糊的9，被识别成4
 
